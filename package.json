@@ -1,0 +1,19 @@
+{
+  "name": "telegram-voice-tasks",
+  "version": "1.0.0",
+  "description": "Extract tasks from text",
+  "main": "index.ts",
+  "scripts": {
+    "test": "test",
+    "start": "nodemon index.ts"
+  },
+  "author": "philip dalen",
+  "license": "ISC",
+  "dependencies": {
+    "@types/express": "^4.17.13",
+    "express": "^4.18.1",
+    "nodemon": "^2.0.19",
+    "ts-node": "^10.9.1",
+    "typescript": "^4.7.4"
+  }
+}
